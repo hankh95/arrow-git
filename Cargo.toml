@@ -12,7 +12,7 @@ categories = ["database", "data-structures"]
 [dependencies]
 arrow-graph-core = "0.1"
 arrow = { version = "55", features = ["prettyprint"] }
-parquet = { version = "55", features = ["arrow"] }
+parquet = { version = "58", features = ["arrow"] }
 uuid = { version = "1", features = ["v4"] }
 chrono = "0.4"
 thiserror = "2"
